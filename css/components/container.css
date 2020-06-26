@@ -1,0 +1,10 @@
+.container {
+  padding: 0 160px;
+}
+
+.masonry-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 32px;
+  margin-bottom: 32px;
+}
