@@ -1,5 +1,5 @@
 /* --- Font imports --- */
-@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:400,700");
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
 
 /* --- Component imports --- */
 @import url("components/container.css");
@@ -17,6 +17,10 @@ body {
 }
 
 h1, h2, h3 {
-  font-family: "Poppins", "sans-serif";
+  font-family: 'Krona One', sans-serif;
+}
+
+h3 {
+  font-size: 16px;
 }
 
