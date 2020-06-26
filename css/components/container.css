@@ -8,3 +8,24 @@
   grid-gap: 32px;
   margin-bottom: 32px;
 }
+
+@media (max-width: 960px) {
+  .masonry-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .container {
+    padding: 0 40px;
+  }
+}
+
+@media (max-width: 480px) {
+  .masonry-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .container {
+    padding: 0 16px;
+  }
+}
+

@@ -31,3 +31,9 @@
   color: #40363B;
   margin-bottom: 4px;
 }
+
+@media (max-width: 480px) {
+  .navbar-info-container {
+    display: none;
+  }
+}

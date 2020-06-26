@@ -24,3 +24,14 @@
 .footer .fa-heart {
   color: #D23333;
 }
+
+
+@media (max-width: 480px) {
+  .footer-links {
+    display: none;
+  }
+
+  .footer-copyright {
+    text-align: center;
+  }
+}
